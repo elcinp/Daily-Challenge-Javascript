@@ -62,3 +62,5 @@ const cart = [
     return sum + (curItem.price * curItem.vat) / 100;
   }, {});
   console.log("vat :>> ", vat);
+
+  
