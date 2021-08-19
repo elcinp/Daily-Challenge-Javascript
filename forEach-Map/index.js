@@ -16,14 +16,28 @@ const str = 'Clarusway Online Career IT Training School';
 // word(str);
 
 
+
 //Solution 2 with map() method
 
-const myArr = str.split(" ");
-console.log(myArr)
+// const myArr = str.split(" ");
+// console.log(myArr)
 
-let firstLetters ="";
+// let firstLetters ="";
 
-myArr.map((item) => {
-    firstLetters += item[0]
-})
-console.log(firstLetters);
+// myArr.map((item) => {
+//     firstLetters += item[0]
+// })
+// console.log(firstLetters);
+
+
+
+// Solution 3 with forEach() method
+
+let arrWord = (str.split(" "))
+let newArr = []
+console.log(str)
+
+arrWord.forEach(element => console.log(element[0]))
+
+arrWord.forEach(element => newArr.push(element[0]))
+console.log(newArr.join(""))
