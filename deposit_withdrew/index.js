@@ -31,7 +31,22 @@ console.log("withdrewSum :",withdrewSum )
 
 //Solution 2
 
+// arrDeposits =[];
+// arrWithdraws =[];
 
+// function foo(array) {
+//     for(let i= 0;i<array.length;i++) {
+//         if (array[i]>0){
+//             arrDeposits.push(array[i])
+//             console.log("you deposited :",array[i])
+//         } else {
+//             arrWithdraws.push(array[i]);
+//             console.log("you withdrew :",array[i])
+//         }
+//     }
+// }
+
+// foo(movements)
 
 
 
