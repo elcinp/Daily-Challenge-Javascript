@@ -18,4 +18,12 @@ const str = 'Clarusway Online Career IT Training School';
 
 //Solution 2 with map() method
 
- str.map()
+const myArr = str.split(" ");
+console.log(myArr)
+
+let firstLetters ="";
+
+myArr.map((item) => {
+    firstLetters += item[0]
+})
+console.log(firstLetters);
