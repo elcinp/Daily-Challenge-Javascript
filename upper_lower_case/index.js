@@ -21,6 +21,15 @@ for (let i = 0; i < str.length; i++) {
 console.log(newStr);
 
 
+// Solution 2
+
+// let arrWord = console.log((str.split("")))
+// let strnew = "";
+// arrWord.forEach(element => element === element.toUpperCase() ? strnew += element.toLowerCase() : strnew+=element.toUpperCase())
+// console.log(strnew)
+
+
+
 
 
 
@@ -46,9 +55,9 @@ console.log(newStr);
     
 //     for (let i =0;i<word.length;i++) {
 //         if (word[i] === word[i].toLowerCase) {
-//             word[i] = word[i].toLowerCase
-//         } else {
 //             word[i] = word[i].toUpperCase
+//         } else {
+//             word[i] = word[i].toLowerCase
 //         }
 //     }
 //     return word
