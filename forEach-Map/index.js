@@ -2,18 +2,18 @@
 
 const str = 'Clarusway Online Career IT Training School';
 
-// function word(str) {
-//     const newStr = str.split(" ")
-//     console.log(newStr)
-//     firstLetters = []
+function word(str) {
+    const newStr = str.split(" ")
+    console.log(newStr)
+    firstLetters = []
 
-//     for (let i=0;i<newStr.length;i++) {
-//         firstLetters.push(newStr[i][0])
-//     }
-//     console.log(firstLetters.join(""))
-// }
+    for (let i=0;i<newStr.length;i++) {
+        firstLetters.push(newStr[i][0])
+    }
+    console.log(firstLetters.join(""))
+}
 
-// word(str);
+word(str);
 
 
 
@@ -33,11 +33,11 @@ const str = 'Clarusway Online Career IT Training School';
 
 // Solution 3 with forEach() method
 
-let arrWord = (str.split(" "))
-let newArr = []
-console.log(str)
+// let arrWord = (str.split(" "))
+// let newArr = []
+// console.log(str)
 
-arrWord.forEach(element => console.log(element[0]))
+// arrWord.forEach(element => console.log(element[0]))
 
-arrWord.forEach(element => newArr.push(element[0]))
-console.log(newArr.join(""))
+// arrWord.forEach(element => newArr.push(element[0]))
+// console.log(newArr.join(""))
