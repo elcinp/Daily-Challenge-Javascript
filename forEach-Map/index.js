@@ -17,9 +17,6 @@ word(str);
 
 
 
-
-
-
 //Solution 2 with map() method
 
 // const myArr = str.split(" ");
@@ -44,6 +41,7 @@ word(str);
 
 // arrWord.forEach(element => newArr.push(element[0]))
 // console.log(newArr.join(""))
+
 
 
 //Solution 4
