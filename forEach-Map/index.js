@@ -17,6 +17,9 @@ word(str);
 
 
 
+
+
+
 //Solution 2 with map() method
 
 // const myArr = str.split(" ");
