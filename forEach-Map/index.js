@@ -44,3 +44,8 @@ word(str);
 
 // arrWord.forEach(element => newArr.push(element[0]))
 // console.log(newArr.join(""))
+
+
+//Solution 4
+
+// console.log(str.split(" ").map(n=> n[0]).join(""))
