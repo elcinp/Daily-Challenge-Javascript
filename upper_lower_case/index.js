@@ -5,6 +5,7 @@ const str = 'The Quick Brown Fox';
 
 //Solution 1 
 
+
 let newStr ="";
 
 for (let i = 0; i < str.length; i++) {
