@@ -22,6 +22,8 @@ for (let i = 0; i < str.length; i++) {
 console.log(newStr);
 
 
+
+
 // Solution 2
 
 // let arrWord = console.log((str.split("")))
